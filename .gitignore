@@ -1,0 +1,11 @@
+# EasyEDA Pro automatic backups & temporary logs
+Five-wire servo control_backup/
+schDrcLog_*.txt
+_verify_*.png
+
+# Keil C251 user GUI & build intermediates (keep final .hex)
+*.uvgui.*
+Five_wire_servo_control_program/build.log
+Five_wire_servo_control_program/Listings/
+Five_wire_servo_control_program/Objects/*
+!Five_wire_servo_control_program/Objects/*.hex
